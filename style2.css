@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: times new roman;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    transform: scale(1.2);
+    color:rgb(0, 0, 0);
+    box-shadow: 0 0 10px white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(img/IMG_4161.jpeg) no-repeat center center/cover;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+}
+
+.main{
+display: flex;
+flex-direction: column;
+border: 1px rgb(250, 248, 247);
+align-items:center;
+text-align: justify;
+position: absolute;
+font-family: palatino linotype;
+font-size: 300%;
+font-weight: 900px;
+color:rgb(255, 0, 43);
+top: 50%;
+}
+
+.main h3{
+    color: aliceblue;
+    font-size: medium;
+    text-align: right;
+}
+.headings{
+    font-family: playfair display;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    margin-bottom: 100px;
+    margin-top: 250px;
+}
+#pic{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#pic img{
+    width: 500px;
+    height: 400px;    
+
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 10px;
+}
+#intro h2{
+    display: flex;
+    text-align: justify;
+    font-size: larger;
+    margin-bottom: 20px;
+    color: white;
+    padding-left: 50px;
+    margin: 50px;
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+.details{
+    font-weight: bolder;
+    margin: 50px;
+    color: white;
+}
+
+#career{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-bottom: 200px;
+    margin-top: 250px;
+}
+#pic{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#pic img{
+    width: 500px;
+    height: 400px;    
+    margin: 20px;
+}
+
+#contact{
+    align-content: center;
+}
+
+.icons{
+    color: whitesmoke;
+    margin-left: 75px;
+    font-size: 300px;
+
+}
+
+.icons:hover{
+    color: aqua;
+}
